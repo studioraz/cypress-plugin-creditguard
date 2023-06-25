@@ -1,6 +1,6 @@
 {
-  "name": "cypress-plugin-creditguard",
-  "version": "0.0.0",
+  "name": "cypress-plugin-creditguard-payment",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/support.js",
   "types": "dist/types.d.ts",
@@ -40,6 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/studioraz/cypress-plugin-creditguard.git"
+    "url": "https://github.com/studioraz/cypress-plugin-creditguard-payment.git"
   }
 }

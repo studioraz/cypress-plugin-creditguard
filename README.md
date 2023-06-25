@@ -1,1 +1,1 @@
-# cypress-plugin-creditguard
+# cypress-plugin-creditguard-payment
