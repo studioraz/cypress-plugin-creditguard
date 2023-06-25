@@ -1,3 +1,5 @@
+// TODO: use this file to make requests to the server
+
 const axios = require('axios');
 
 const data = {
