@@ -1,0 +1,15 @@
+{
+  "default" : {
+    "cardNumber": "4557430402053431",
+    "expMonth": "02",
+    "expYear": "2026",
+    "cvv": "200"
+  },
+  "default_with_personal_id" : {
+    "personalId" : "890108566",
+    "cardNumber": "4557430402053431",
+    "expMonth": "02",
+    "expYear": "2026",
+    "cvv": "200"
+  }
+}
