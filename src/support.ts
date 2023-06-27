@@ -11,7 +11,7 @@ Cypress.Commands.add('CGFillCreditCardForm', (creditCartFormData: CreditCartForm
         );
     }
 
-    cy.get('iframe#cg-iframe')
+    cy.get('iframe[src*=\"ppsuat.creditguard.co.il\"]')
         .iframe()
         .should('exist')
         .should('be.visible')
@@ -46,7 +46,7 @@ Cypress.Commands.add('CGFillCreditCardForm', (creditCartFormData: CreditCartForm
 
 
 Cypress.Commands.add('CGGetIframe', () => {
-    return cy.get('iframe#cg-iframe')
+    return cy.get('iframe[src*=\"ppsuat.creditguard.co.il\"]')
         .iframe();
 });
 
