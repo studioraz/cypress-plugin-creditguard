@@ -1,6 +1,6 @@
 {
   "name": "cypress-plugin-creditguard-payment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/support.js",
   "types": "dist/types.d.ts",
