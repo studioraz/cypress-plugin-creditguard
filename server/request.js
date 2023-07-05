@@ -37,7 +37,7 @@ const data = {
 };
 
 
-function getCG() {
+function getCGIframe() {
     return axios.post("https://cguat2.creditguard.co.il/xpo/Relay",
         data,{
         headers: {
@@ -51,6 +51,6 @@ function getCG() {
     });
 }
 
-module.exports = getCG;
+module.exports = getCGIframe;
 
 
